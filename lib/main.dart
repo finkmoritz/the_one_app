@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:the_one_app/books_page.dart';
+import 'package:the_one_app/home_page.dart';
+
+const String apiKey = ''; // TODO add TheOneApi API key here
 
 void main() {
   runApp(const TheOneApp());
@@ -15,7 +17,7 @@ class TheOneApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const BooksPage(),
+      home: const HomePage(),
     );
   }
 }
