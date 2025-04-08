@@ -3,7 +3,7 @@ import 'package:lotr_api/lotr_api.dart';
 import 'package:the_one_app/main.dart';
 
 class QuotesPage extends StatefulWidget {
-  const QuotesPage({Key? key}) : super(key: key);
+  const QuotesPage({super.key});
 
   @override
   State<QuotesPage> createState() => _QuotesPageState();

@@ -5,9 +5,9 @@ class ChaptersPage extends StatefulWidget {
   final Book book;
 
   const ChaptersPage({
-    Key? key,
+    super.key,
     required this.book,
-  }) : super(key: key);
+  });
 
   @override
   State<ChaptersPage> createState() => _ChaptersPageState();

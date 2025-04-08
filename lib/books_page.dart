@@ -3,7 +3,7 @@ import 'package:lotr_api/lotr_api.dart';
 import 'package:the_one_app/chapters_page.dart';
 
 class BooksPage extends StatefulWidget {
-  const BooksPage({Key? key}) : super(key: key);
+  const BooksPage({super.key});
 
   @override
   State<BooksPage> createState() => _BooksPageState();
